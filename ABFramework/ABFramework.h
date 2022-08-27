@@ -7,6 +7,7 @@
 #ifndef ABFRAMEWORK_H
 #define ABFRAMEWORK_H
 
+#include "DataTypes/ABTypeDefs.h"
 #include "Macros.h"
 #include "Memory/ABMemory.h"
 #include "STDLibs.h"
