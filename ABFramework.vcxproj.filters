@@ -53,5 +53,14 @@
     <ClInclude Include="ABFramework\Memory\Object.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ABFramework\DataTypes\ABTypeDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ABFramework\DataTypes\ABString\ABString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ABFramework\DataTypes\ABString\ABStringSizes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

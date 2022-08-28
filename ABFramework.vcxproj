@@ -95,6 +95,7 @@
       <ConformanceMode>true</ConformanceMode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <LanguageStandard>stdcpp14</LanguageStandard>
+      <ForcedIncludeFiles>$(SolutionDir)ABFramework.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -109,6 +110,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <ForcedIncludeFiles>$(SolutionDir)ABFramework.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -153,6 +155,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ABFramework\ABFramework.h" />
+    <ClInclude Include="ABFramework\DataTypes\ABString\ABString.h" />
+    <ClInclude Include="ABFramework\DataTypes\ABString\ABStringSizes.h" />
+    <ClInclude Include="ABFramework\DataTypes\ABTypeDefs.h" />
     <ClInclude Include="ABFramework\Macros.h" />
     <ClInclude Include="ABFramework\Memory\ABMemory.h" />
     <ClInclude Include="ABFramework\Memory\ABNew.h" />
